@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo-alura.jpeg" alt="Logo Alura" class="logo">
+            <h1>Encriptador de Texto</h1>
+        </header>
+        <main>
+            <section class="input-section">
+                <textarea id="input-text" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="buttons">
+                    <button onclick="encryptText()">Encriptar</button>
+                    <button onclick="decryptText()">Desencriptar</button>
+                </div>
+                <small>Solo letras minúsculas y sin acentos</small>
+            </section>
+            <section class="output-section">
+                <img id="output-image" src="img/robot-alura.jpeg" alt="Robot sorprendido por el encriptador">
+                <p id="output-text">Ningún mensaje fue encontrado</p>
+                <button id="copy-button" onclick="copyToClipboard()">Copiar</button>
+                <span id="copy-message" style="display:none;">Copiado</span>
+            </section>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
