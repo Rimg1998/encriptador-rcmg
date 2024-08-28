@@ -1,8 +1,5 @@
 # encriptador-rcmg
-encriptador de texto con forma interactiva
-# encriptador-rcmg
-
-Encriptador de texto con forma interactiva.
+Encriptador con forma interactiva.
 
 ## Descripción
 
